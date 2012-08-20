@@ -308,7 +308,9 @@ class VBLKPartition(VBLK):
         humansize = "%s gb"%(part.size * SECTOR_SIZE / 1024 / 1024 / 1024)
         extents_sectors = (part.volume_offset.value, part.volume_offset.value + part.size)
         extents = [x*SECTOR_SIZE for x in extents_sectors]
-        return "%s: %s %s covering %s - %s on disk %s"%(self.__class__.__name__, self.name, humansize, extents[0], extents[1], self.disk_object_id)
+        extents_physical_sectors = (part.start.value, part.start.value + part.size)
+        extents_physical = [x*SECTOR_SIZE for x in extents_physical_sectors]
+        return "%s: %s %s covering %s - %s on disk %s at %s (%s bytes)"%(self.__class__.__name__, self.name, humansize, extents[0], extents[1], self.disk_object_id, extents_physical[0], part.size * SECTOR_SIZE)
 class VBLKDisk(VBLK):
     _fields_ = []
     _var_fields = [

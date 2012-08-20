@@ -1,5 +1,4 @@
 dynamicinfo
-
 ===========
 
 
@@ -40,13 +39,13 @@ Dynamic Disk v2.12 (Windows Vista)
              VBLKDiskGroup: CBWHIZ-PC-Dg0 {08b3133c-cae8-11e1-8ebf-0022159ae493}
              VBLKVolume: Volume1 (gen ACTIVE) (#1)
                 VBLKComponent: Volume1-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2
-                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6
-                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15
+                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2 at 1016320 (500104691712 bytes)
+                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6 at 219148157440 (96121913344 bytes)
+                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15 at 1016320 (218609221632 bytes)
              VBLKVolume: Volume2 (gen ACTIVE) (#1)
                 VBLKComponent: Volume2-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6
-                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6
+                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6 at 315270070784 (184834588672 bytes)
+                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6 at 1016320 (219147141120 bytes)
 
 
 Dynamic Disk v2.12 (Windows Vista)
@@ -57,15 +56,16 @@ Dynamic Disk v2.12 (Windows Vista)
              VBLKDisk: Disk2 (6) {08b31341-cae8-11e1-8ebf-0022159ae493}
              VBLKDisk: Disk3 (15) {08b313c4-cae8-11e1-8ebf-0022159ae493}
              VBLKDiskGroup: CBWHIZ-PC-Dg0 {08b3133c-cae8-11e1-8ebf-0022159ae493}
+
              VBLKVolume: Volume1 (gen ACTIVE) (#1)
                 VBLKComponent: Volume1-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2
-                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6
-                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15
+                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2 at 1016320 (500104691712 bytes)
+                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6 at 219148157440 (96121913344 bytes)
+                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15 at 1016320 (218609221632 bytes)
              VBLKVolume: Volume2 (gen ACTIVE) (#1)
                 VBLKComponent: Volume2-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6
-                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6
+                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6 at 315270070784 (184834588672 bytes)
+                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6 at 1016320 (219147141120 bytes)
 
 
 Dynamic Disk v2.12 (Windows Vista)
@@ -78,11 +78,11 @@ Dynamic Disk v2.12 (Windows Vista)
              VBLKDiskGroup: CBWHIZ-PC-Dg0 {08b3133c-cae8-11e1-8ebf-0022159ae493}
              VBLKVolume: Volume1 (gen ACTIVE) (#1)
                 VBLKComponent: Volume1-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2
-                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6
-                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15
+                   VBLKPartition: Disk1-01 465.758789062 gb covering 0 - 500104691712 on disk 2 at 1016320 (500104691712 bytes)
+                   VBLKPartition: Disk2-02 89.5205078125 gb covering 500104691712 - 596226605056 on disk 6 at 219148157440 (96121913344 bytes)
+                   VBLKPartition: Disk3-01 203.595703125 gb covering 596226605056 - 814835826688 on disk 15 at 1016320 (218609221632 bytes)
              VBLKVolume: Volume2 (gen ACTIVE) (#1)
                 VBLKComponent: Volume2-01 (ACTIVE Basic / Spanned)
-                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6
-                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6
+                   VBLKPartition: Disk2-01 172.140625 gb covering 0 - 184834588672 on disk 6 at 315270070784 (184834588672 bytes)
+                   VBLKPartition: Disk2-03 204.096679688 gb covering 184834588672 - 403981729792 on disk 6 at 1016320 (219147141120 bytes)
 </pre>
